@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Square Colors:  background colors for the squares.*/
+$color-0: #eaeaea;
+$color-1: #ff6600;
+$color-2: #eec900;
+$color-3: #0000ff;
+$color-4: #cc00ff;
+$color-5: #00ff00;
+$color-6: #66ccff;
+$color-7: #ff0000;
+
+
+.color-0 {
+    background-color: $color-1;
+}
+  
+.color-1 {
+    background-color: $color-2;
+}
+
+.color-3 {
+    background-color: $color-3;
+}
+
+.color-4 {
+    background-color: $color-4;
+}
+
+.color-5 {
+    background-color: $color-5;
+}
+
+.color-6 {
+    background-color: $color-6;
+}
+
+.color-7 {
+    background-color: $color-7;
+}
+
+
+#app{
+    padding: 20px;
+}
+
+#header{
+    background-color: #e4e4e4;
+    color: grey;
+    padding: 10px;
+}
+
+#main_content{
+    padding: 10px;
+}
+
+#textarea_comp{
+    textarea{
+        width: 60%;
+        min-height: 200px;
+        padding: 10px;
+        &:focus{
+            outline: none;
+        }
+    }
+
+    .textarea-error{
+        border: 1px solid #ff0000;
+    }
+}
+
+
+
+// grid station
+
+.grill-square{
+    width: 10px;
+    height: 10px;
+}
+
+.grill-board{
+    display: grid;
+    grid-gap: 0;
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
+
+
